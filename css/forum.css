@@ -1,0 +1,68 @@
+/* Toute la page */
+
+html{
+    background-color: rgb(47, 79, 79);
+}
+
+/* tête de page */
+
+header.header {
+    display: flex;
+    align-items: center
+}
+
+section.top-page {
+background-size: cover;
+height: 72vh;
+padding: 30px;
+border-radius: none;
+border: none;
+}
+
+
+header.header img {
+width: 140px;
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+padding: 20px 50px;
+}
+
+.scroll-down {
+text-decoration: none;
+position: absolute;
+bottom: 40px;
+}
+
+div.landing-page a {
+color: white;
+}
+
+.big-title {
+width: 300px;
+color: rgb(127, 252, 231);
+font-size: 80px;
+font-family: 'Arial Fatface', ;
+font-weight: 500;
+}
+
+
+/* menu nav */
+
+
+nav.nav {
+display: flex;
+justify-content: space-between;
+list-style: none;
+width: 1600px;
+margin-left: 40px;
+}
+
+
+nav.nav li a{
+font-size: 35px;
+height: 5vh;
+color:rgb(156, 211, 206);
+}

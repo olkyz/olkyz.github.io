@@ -1,0 +1,140 @@
+/* Toute la page */
+
+html{
+    background-color: rgb(47, 79, 79);
+}
+
+/* logo */
+
+.logo{
+    margin-left: 45px;
+}
+
+/* tête de page */
+
+header.header {
+    display: flex;
+    align-items: center
+}
+
+section.top-page {
+background-size: cover;
+height: 72vh;
+padding: 30px;
+border-radius: none;
+border: none;
+}
+
+
+header.header img {
+width: 140px;
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+padding: 20px 50px;
+}
+
+.scroll-down {
+text-decoration: none;
+position: absolute;
+bottom: 40px;
+}
+
+div.landing-page a {
+color: white;
+}
+
+.big-title {
+width: 300px;
+color: rgb(127, 252, 231);
+font-size: 80px;
+font-family: 'Arial Fatface', ;
+font-weight: 500;
+}
+
+
+/* ________________________*/
+/*/                       \*/
+/*|                       |*/
+/*|  Menu de Navigations  |*/
+/*|                       |*/
+/*\_______________________/*/
+
+
+nav.nav {
+display: flex;
+justify-content: space-between;
+list-style: none;
+width: 1600px;
+margin-left: 60px;
+}
+
+
+nav.nav li a {
+font-size: 35px;
+height: 5vh;
+color:rgb(156, 211, 206);
+}
+/* __________________________*/
+/*/                          \*/
+/*|                          |*/
+/*| disposition des musiques |*/
+/*|                          |*/
+/*\__________________________/*/
+
+
+.musique {
+    margin-left: 80px;
+    margin-top: 80px;
+    font-size: 25px;
+    display: flex;
+}
+
+/* Box première musique */
+
+.première {
+    border: 5px solid rgb(5, 61, 26);
+    background-color: rgb(38, 148, 111);
+    padding: 20px;
+    width: 353px;
+    height: 600px;
+}
+
+/* Box deuxième musique */
+
+.deuxième {
+    border: 5px solid rgb(5, 61, 26);
+    background-color: rgb(38, 148, 111);
+    padding: 20px;
+    width: 353px;
+    height: 600px;
+    margin-left: 70px;
+}
+
+/* Box troisième musique */
+
+.troisème {
+    border: 5px solid rgb(5, 61, 26);
+    background-color: rgb(38, 148, 111);
+    padding: 20px;
+    width: 353px;
+    height: 600px;
+    margin-left: 70px;
+}
+
+.ImgNightRoad {
+    color: aqua;
+}
+
+/* Box quatrième musique */
+
+.quatrième {
+    border: 5px solid rgb(5, 61, 26);
+    background-color: rgb(38, 148, 111);
+    padding: 20px;
+    width: 353px;
+    height: 600px;
+    margin-left: 70px;
+}
