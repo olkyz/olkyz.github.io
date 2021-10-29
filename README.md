@@ -1,1 +1,1 @@
-# olkyz.github.io.
+# olkyz.github.io
